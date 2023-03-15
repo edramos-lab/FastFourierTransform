@@ -20,10 +20,10 @@ FFT PARALLEL IMPLEMETATION
 #include <mpi.h> //To use MPI
 #include <complex.h> //to use complex numbers
 #include <math.h>	//for cos() and sin()
-#include "timer.h" //to use timer
+#include "Timer.h" //to use timer
 
 #define PI 3.14159265
-#define bigN 16384 //Problem Size
+#define bigN 32768 //Problem Size
 #define howmanytimesavg 3 //How many times do I wanna run for the AVG?
 
 int main()
